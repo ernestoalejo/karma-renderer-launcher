@@ -39,6 +39,7 @@ ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
 Also if you don't have at least one graphical interface on (in Vagrant or Docker for example) you'll need to install and run the headless X server:
 
 ```shell
+export DISPLAY=:100.0
 sudo apt-get install xvfb
 (Xvfb :100 -ac &)
 ```
