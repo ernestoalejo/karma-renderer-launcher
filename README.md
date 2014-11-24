@@ -14,7 +14,7 @@ The easiest way is to keep `karma-renderer-launcher` as a devDependency in your 
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-renderer-launcher": "~0.0.1"
+    "karma-renderer-launcher": "~0.1.0"
   }
 }
 ```
