@@ -1,0 +1,23 @@
+{
+  "name": "karma-renderer-launcher",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Launcher for renderer.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ernestoalejo/karma-renderer-launcher.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-launcher",
+    "renderer"
+  ],
+  "author": "Ernesto Alejo <ernestokarim@gmail.com>",
+  "dependencies": {
+    "cef-renderer": "0.1.0-pre"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9.3"
+  },
+  "license": "MIT"
+}
