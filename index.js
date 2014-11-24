@@ -21,7 +21,7 @@ RendererBrowser.prototype = {
   name: 'Renderer',
 
   DEFAULT_CMD: {
-    linux: renderer.path,
+    linux: renderer.karma,
   },
   ENV_CMD: 'RENDERER_BIN',
 };
