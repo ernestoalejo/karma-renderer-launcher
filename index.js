@@ -11,8 +11,14 @@ var RendererBrowser = function (baseBrowserDecorator, processLauncher) {
   this._getOptions = function(url) {
     return [
       '-c',
-      'LD_LIBRARY_PATH=' + dir + ' ' + renderer.karma +
-          ' -logtostderr -url "' + url + '"',
+      [
+        'LD_LIBRARY_PATH=' + dir,
+        renderer.karma,
+        '-logtostderr',
+        '-url', url,
+        '-locales_dir_path', path.join(dir, 'locales'),
+        '-resources_dir_path', dir,
+      ].join(' '),
     ];
   };
 };

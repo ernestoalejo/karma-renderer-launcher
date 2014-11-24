@@ -26,6 +26,18 @@ npm install karma-renderer-launcher --save-dev
 ```
 
 
+Packages needed for renderer
+----------------------------
+
+In Ubuntu you'll need this packages and symbolic link to make renderer work:
+
+```shell
+sudo apt-get install libgtk2.0 libnss3 libgconf-2-4 libasound2 libudev1
+ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
+```
+
+
+
 ----
 
 For more information on Karma see the [homepage](http://karma-runner.github.com).

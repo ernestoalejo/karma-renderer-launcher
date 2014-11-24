@@ -1,6 +1,6 @@
 {
   "name": "karma-renderer-launcher",
-  "version": "0.1.0-pre4-1",
+  "version": "0.1.0-pre4-2",
   "description": "A Karma plugin. Launcher for renderer.",
   "main": "index.js",
   "repository": {
