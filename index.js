@@ -3,10 +3,17 @@
 var renderer = require('cef-renderer');
 
 
-var RendererBrowser = function (baseBrowserDecorator) {
+var RendererBrowser = function (baseBrowserDecorator, processLauncher) {
   baseBrowserDecorator(this);
-
+  
+  this._getOptions = function(url) {
+    return [
+      '-logtostderr',
+      '-url', url,
+    ];
+  };
 };
+
 RendererBrowser.$inject = ['baseBrowserDecorator'];
 
 

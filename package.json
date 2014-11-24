@@ -1,6 +1,6 @@
 {
   "name": "karma-renderer-launcher",
-  "version": "0.1.0-pre",
+  "version": "0.1.0-pre4",
   "description": "A Karma plugin. Launcher for renderer.",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,7 @@
   ],
   "author": "Ernesto Alejo <ernestokarim@gmail.com>",
   "dependencies": {
-    "cef-renderer": "0.1.0-pre"
+    "cef-renderer": "0.1.0-pre4"
   },
   "peerDependencies": {
     "karma": ">=0.9.3"
