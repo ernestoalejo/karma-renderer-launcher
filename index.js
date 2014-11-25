@@ -30,7 +30,7 @@ RendererBrowser.prototype = {
   name: 'Renderer',
 
   DEFAULT_CMD: {
-    linux: '/bin/sh',
+    linux: '/bin/bash',
   },
   ENV_CMD: 'RENDERER_BIN',
 };
